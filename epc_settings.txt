@@ -1,0 +1,23 @@
+# openSeaChest_PowerControl -d /dev/sg0 --showEPCSettings
+==========================================================================================
+ openSeaChest_PowerControl - openSeaChest drive utilities - NVMe Enabled
+ Copyright (c) 2014-2021 Seagate Technology LLC and/or its Affiliates, All Rights Reserved
+ openSeaChest_PowerControl Version: 3.0.2-2_2_3 X86_64
+ Build Date: Jun 21 2021
+ Today: Sat Feb 12 18:11:45 2022	User: root
+==========================================================================================
+
+/dev/sg0 - ST8000NM000A-2KE101 - WSDXXXXX - ATA
+.
+
+===EPC Settings===
+	* = timer is enabled
+	C column = Changeable
+	S column = Savable
+	All times are in 100 milliseconds
+
+Name       Current Timer Default Timer Saved Timer   Recovery Time C S
+Idle A     *1            *1            *1            1             Y Y
+Idle B     *1200         *1200         *1200         4             Y Y
+Idle C      0             6000          6000         50            Y Y
+Standby Z   0             9000          9000         120           Y Y

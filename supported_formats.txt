@@ -1,0 +1,30 @@
+# SeaChest_Format -d /dev/sg0 --showSupportedFormats
+==========================================================================================
+ SeaChest_Format - Seagate drive utilities - NVMe Enabled
+ Copyright (c) 2014-2021 Seagate Technology LLC and/or its Affiliates, All Rights Reserved
+ SeaChest_Format Version: 2.3.1-2_2_3 X86_64
+ Build Date: Jun 17 2021
+ Today: Sun Feb 13 09:38:23 2022	User: root
+==========================================================================================
+
+/dev/sg0 - ST8000NM000A-2KE101 - WSDXXXXX - ATA
+
+Supported Logical Block Sizes and Protection Types:
+---------------------------------------------------
+  * - current device format
+PI Key:
+  Y - protection type supported at specified block size
+  N - protection type not supported at specified block size
+  ? - unable to determine support for protection type at specified block size
+Relative performance key:
+  N/A - relative performance not available.
+  Best    
+  Better  
+  Good    
+  Degraded
+--------------------------------------------------------------------------------
+ Logical Block Size  PI-0  PI-1  PI-2  PI-3  Relative Performance  Metadata Size
+--------------------------------------------------------------------------------
+*               512     Y     N     N     N                   N/A            N/A
+               4096     Y     N     N     N                   N/A            N/A
+--------------------------------------------------------------------------------

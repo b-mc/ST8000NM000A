@@ -1,0 +1,63 @@
+# openSeaChest_Info -d /dev/sg0 --deviceStatistics
+==========================================================================================
+ openSeaChest_Info - openSeaChest drive utilities - NVMe Enabled
+ Copyright (c) 2014-2021 Seagate Technology LLC and/or its Affiliates, All Rights Reserved
+ openSeaChest_Info Version: 2.1.0-2_2_3 X86_64
+ Build Date: Jun 21 2021
+ Today: Sat Feb 12 18:11:06 2022	User: root
+==========================================================================================
+
+/dev/sg0 - ST8000NM000A-2KE101 - WSDXXXXX - ATA
+..
+===Device Statistics===
+	* = condition monitored with threshold (DSN Feature)
+	! = monitored condition met
+	- = supports notification (DSN Feature)
+ Statistic Name:                                              Threshold:       Value:          
+
+---General Statistics---
+ LifeTime Power-On Resets                                     N/A              7
+ Power-On Hours                                               N/A              23 hours
+ Logical Sectors Written                                      N/A              154051022
+ Number Of Write Commands                                     N/A              120045
+ Logical Sectors Read                                         N/A              5391378
+ Number Of Read Commands                                      N/A              17201
+ Date And Time Timestamp                                      N/A              Invalid
+
+---Rotating Media Statistics---
+ Spindle Motor Power-On Hours                                 N/A              23 hours
+ Head Flying Hours                                            N/A              12 hours
+ Head Load Events                                             N/A              65
+ Number Of Reallocated Logical Sectors                        N/A              0
+ Read Recovery Attempts                                       N/A              0
+ Number Of Mechanical Start Failures                          N/A              0
+ Number Of Reallocation Candidate Logical Sectors             N/A              0
+ Number Of High Priority Unload Events                        N/A              0
+
+---General Errors Statistics---
+ Number Of Reported Uncorrectable Errors                      N/A              0
+ Number Of Resets Between Command Acceptance and Completion   N/A              0
+
+---Temperature Statistics---
+ Current Temperature                                          N/A              31 C
+ Average Short Term Temperature                               N/A              Invalid
+ Average Long Term Temperature                                N/A              Invalid
+ Highest Temperature                                          N/A              51 C
+ Lowest Temperature                                           N/A              17 C
+ Highest Average Short Term Temperature                       N/A              Invalid
+ Lowest Average Short Term Temperature                        N/A              Invalid
+ Highest Average Long Term Temperature                        N/A              Invalid
+ Lowest Average Long Term Temperature                         N/A              Invalid
+ Time In Over Temperature                                     N/A              0 minutes
+ Specified Maximum Operating Temperature                      N/A              60 C
+ Time In Under Temperature                                    N/A              0 minutes
+ Specified Minimum Operating Temperature                      N/A              5 C
+
+---Transport Statistics---
+ Number Of Hardware Resets                                    N/A              18
+ Number Of ASR Events                                         N/A              6
+ Number Of Interface CRC Errors                               N/A              0
+
+---Seagate Specific Statistics---
+ Vendor Specific Statistic 2                                  N/A              0
+ Vendor Specific Statistic 3                                  N/A              0

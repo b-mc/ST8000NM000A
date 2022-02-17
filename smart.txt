@@ -1,0 +1,207 @@
+# openSeaChest_Info -d /dev/sg0 --smartAttributes analyzed
+==========================================================================================
+ openSeaChest_Info - openSeaChest drive utilities - NVMe Enabled
+ Copyright (c) 2014-2021 Seagate Technology LLC and/or its Affiliates, All Rights Reserved
+ openSeaChest_Info Version: 2.1.0-2_2_3 X86_64
+ Build Date: Jun 21 2021
+ Today: Sat Feb 12 18:10:06 2022	User: root
+==========================================================================================
+
+/dev/sg0 - ST8000NM000A-2KE101 - WSDXXXXX - ATA
+1 - Read Error Rate
+	Attribute Type(s):
+		Pre-fail
+		Online Data Collection
+		Performance
+		Error Rate
+	Nominal Value: 82
+	Worst Ever Value: 69
+	Threshold: 44
+	Number Of Sector Reads: 159442722
+	Number Of Read Errors: 0
+3 - Spin Up Time
+	Attribute Type(s):
+		Pre-fail
+		Online Data Collection
+	Nominal Value: 92
+	Worst Ever Value: 92
+	Threshold set to always passing
+4 - Start/Stop Count
+	Attribute Type(s):
+		Online Data Collection
+		Event Count
+		Self-Preserving
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold: 20
+	Spin Up Count: 7
+5 - Retired Sectors Count
+	Attribute Type(s):
+		Pre-fail
+		Online Data Collection
+		Event Count
+		Self-Preserving
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold: 10
+	Current Retired Sector Count: 0
+7 - Seek Error Rate
+	Attribute Type(s):
+		Pre-fail
+		Online Data Collection
+		Performance
+		Error Rate
+	Nominal Value: 66
+	Worst Ever Value: 61
+	Threshold: 45
+	Number Of Seeks: 4293436
+	Number Of Seek Errors: 0
+9 - Power On Hours
+	Attribute Type(s):
+		Online Data Collection
+		Event Count
+		Self-Preserving
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold set to always passing
+	Power On Hours = 23.000000
+10 - Spin Retry Count
+	Attribute Type(s):
+		Pre-fail
+		Online Data Collection
+		Event Count
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold: 97
+12 - Drive Power Cycle Count
+	Attribute Type(s):
+		Online Data Collection
+		Event Count
+		Self-Preserving
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold: 20
+	Power Cycle Count: 7
+18 - Head Health Self Assessment
+	Attribute Type(s):
+		Pre-fail
+		Online Data Collection
+		Error Rate
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold: 50
+	Failed Heads:
+		No Failed Heads
+187 - Reported Un-correctable
+	Attribute Type(s):
+		Online Data Collection
+		Event Count
+		Self-Preserving
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold set to always passing
+	Total # of Reported Uncorrectable Errors To The Host: 0
+188 - Command Timeout
+	Attribute Type(s):
+		Online Data Collection
+		Event Count
+		Self-Preserving
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold set to always passing
+	Total # of command timeouts: 0
+	Total # of commands with > 5 second completion: 0
+	Total # of commands with > 7.5 second completion: 0
+190 - Airflow Temperature
+	Attribute Type(s):
+		Online Data Collection
+		Self-Preserving
+	Nominal Value: 69
+	Worst Ever Value: 49
+	Threshold: 40
+	Current Temperature (C): 31
+	Lowest Temperature during this power cycle: 23
+	Highest Temperature during this power cycle: 31
+	Number of times attribute below threshold: 0
+192 - Emergency Retract Count
+	Attribute Type(s):
+		Online Data Collection
+		Event Count
+		Self-Preserving
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold set to always passing
+	Emergency Retract Count: 0
+193 - Load-Unload Count
+	Attribute Type(s):
+		Online Data Collection
+		Event Count
+		Self-Preserving
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold set to always passing
+	Load Count: 65
+194 - Temperature
+	Attribute Type(s):
+		Online Data Collection
+		Self-Preserving
+	Nominal Value: 31
+	Worst Ever Value: 51
+	Threshold set to always passing
+	Current Temperature (C): 31
+	Worst Highest Temperature (C): 51
+	Worst Lowest Temperature (C): 16
+195 - ECC On The Fly Count
+	Attribute Type(s):
+		Online Data Collection
+		Error Rate
+		Event Count
+	Nominal Value: 22
+	Worst Ever Value: 22
+	Threshold set to always passing
+	Number Of Sector Reads: 159442722
+	Number Of ECC OTF Errors: 0
+197 - Pending-Sparing Count
+	Attribute Type(s):
+		Online Data Collection
+		Event Count
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold set to always passing
+	Current Pending Spare Count: 0
+198 - Unknown Attribute
+	Attribute Type(s):
+		Event Count
+	Nominal Value: 100
+	Worst Ever Value: 100
+	Threshold set to always passing
+	Current Uncorrectable Sector Count: 0
+199 - Ultra DMA CRC Error
+	Attribute Type(s):
+		Online Data Collection
+		Performance
+		Error Rate
+		Event Count
+		Self-Preserving
+	Nominal Value: 200
+	Worst Ever Value: 200
+	Threshold set to always passing
+	Current CRC/R_Errs Error Count: 0
+240 - Head Flight Hours
+	Attribute Type(s):
+	Nominal Value: 100
+	Worst Ever Value: 253
+	Threshold set to always passing
+	Head Flight Hours = 11.233333
+241 - Lifetime Writes From Host
+	Attribute Type(s):
+	Nominal Value: 100
+	Worst Ever Value: 253
+	Threshold set to always passing
+	Lifetime LBAs Written: 154051022
+242 - Lifetime Reads From Host
+	Attribute Type(s):
+	Nominal Value: 100
+	Worst Ever Value: 253
+	Threshold set to always passing
+	Lifetime LBAs Read: 5391700

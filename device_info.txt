@@ -1,0 +1,94 @@
+# openSeaChest_Basics -d /dev/sg0 --deviceInfo
+==========================================================================================
+ openSeaChest_Basics - openSeaChest drive utilities - NVMe Enabled
+ Copyright (c) 2014-2021 Seagate Technology LLC and/or its Affiliates, All Rights Reserved
+ openSeaChest_Basics Version: 3.1.0-2_2_3 X86_64
+ Build Date: Jun 21 2021
+ Today: Sat Feb 12 18:06:30 2022	User: root
+==========================================================================================
+
+/dev/sg0 - ST8000NM000A-2KE101 - WSDXXXXX - ATA
+        Model Number: ST8000NM000A-2KE101
+        Serial Number: WSDXXXXX
+        Firmware Revision: SN03
+        World Wide Name: XXXXXXXXXXXXXXXX
+        Drive Capacity (TB/TiB): 8.00/7.28
+        Native Drive Capacity (TB/TiB): 8.00/7.28
+        Temperature Data:
+                Current Temperature (C): 31
+                Highest Temperature (C): 31
+                Lowest Temperature (C): 26
+        Power On Time: Not Reported
+        Power On Hours: Not Reported
+        MaxLBA: 15628053167
+        Native MaxLBA: 15628053167
+        Logical Sector Size (B): 512
+        Physical Sector Size (B): 4096
+        Sector Alignment: 0
+        Rotation Rate (RPM): 7200
+        Form Factor: 3.5"
+        Last DST information:
+                DST has never been run
+        Long Drive Self Test Time:  11 hours 37 minutes 
+        Interface speed:
+                Max Speed (Gb/s): 6.0
+                Negotiated Speed (Gb/s): 6.0
+        Annualized Workload Rate (TB/yr): 0.00
+        Total Bytes Read (MB): 4.61
+        Total Bytes Written (B): Not Reported
+        Encryption Support: Not Supported
+        Cache Size (MiB): 256.00
+        Read Look-Ahead: Enabled
+        Write Cache: Enabled
+        Low Current Spinup: Disabled
+        SMART Status: Unknown or Not Supported
+        ATA Security Information: Supported, Frozen
+        Firmware Download Support: Full, Segmented, Deferred
+        Specifications Supported:
+                ACS-4
+                ACS-3
+                ACS-2
+                ATA8-ACS
+                ATA/ATAPI-7
+                ATA/ATAPI-6
+                ATA/ATAPI-5
+                SATA 3.3
+                SATA 3.2
+                SATA 3.1
+                SATA 3.0
+                SATA 2.6
+                SATA 2.5
+                SATA II: Extensions
+                SATA 1.0a
+                ATA8-AST
+        Features Supported:
+                Sanitize
+                SATA NCQ
+                SATA Rebuild Assist
+                SATA Software Settings Preservation [Enabled]
+                SATA Device Initiated Power Management
+                Power Management
+                Security
+                SMART [Enabled]
+                48bit Address
+                PUIS
+                GPL
+                Streaming
+                SMART Self-Test
+                SMART Error Logging
+                Write-Read-Verify
+                DSN
+                AMAC
+                EPC [Enabled]
+                Sense Data Reporting [Enabled]
+                SCT Write Same
+                SCT Error Recovery Control
+                SCT Feature Control
+                SCT Data Tables
+                Host Logging
+                Set Sector Configuration
+                Seagate In Drive Diagnostics (IDD)
+        Adapter Information:
+                Vendor ID: 8086h
+                Product ID: A352h
+                Revision: 0010h
