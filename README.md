@@ -68,9 +68,11 @@ the drive unusable or require performing this command again!!
 Successfully set sector size to 4096
 ```
 
-# Verify
+## Verify
 ```
 # SeaChest_Format -d /dev/sg0 --showSupportedFormats
+(...)
+  * - current device format
 (...)
 --------------------------------------------------------------------------------
  Logical Block Size  PI-0  PI-1  PI-2  PI-3  Relative Performance  Metadata Size
